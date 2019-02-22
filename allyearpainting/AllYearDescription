@@ -2,7 +2,8 @@
 
          Description:
             The purpose of this website is to give Alejandro owner of AllYearPainting a face on the internet, where he
-            can be contact and reached. To present AllYearPainting as a professional company and expand his bussiness.
+            can be contacted and reached. To present AllYearPainting as a professional company looking to expand bussiness
+            on the internet.
 
          The structure of the website:
 
@@ -18,8 +19,8 @@
          Languages used
 
             html: will be implement for the webpages
-            javascript: will be implemented to give the webpages functiontionally(buttons,scroller, auto-sizing, etc...
-            php: will be implemented to in the contact page for routing messages to Alejandro
+            javascript: will be implemented to give the webpages functiontionally(buttons,scroller, auto-sizing, etc...)
+            php: will be implemented in the contact page for routing messages to Alejandro
 
 
          Team:
@@ -54,6 +55,16 @@
 
     Git hub Command
 
-        git add .
-        git commit -m "folder"
-        git push
+        process for pushing files
+            git add .
+            git commit -m "Comments"
+            git push
+
+        git config --global user.name "YOUR_USERNAME" -log into github account
+
+        git --version -checks if you have git installed, if so shows the version
+
+        git push -f origin master -used to force repository to origin master(NOT RECOMENDED FOR LATE STAGES OF DEVELOPMENT
+                                    /ONLY FOR EARLY STAGE)
+
+        git pull -will undo all of the changes you made to your history, intentionally
