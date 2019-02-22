@@ -1,5 +1,59 @@
  Description of ALL Year Painting
 
-     Start: 02/21/19
+         Description:
+            The purpose of this website is to give Alejandro owner of AllYearPainting a face on the internet, where he
+            can be contact and reached. To present AllYearPainting as a professional company and expand his bussiness.
 
-         The structure of the website
+         The structure of the website:
+
+            index - home page
+
+            gallery -a view of the projects that Alejandro has completed or currently working
+
+            about -page over who Alejandro is, what he stands for, and the purpose of his work
+                                                    (painting company) (written in 1st person)
+
+            contact - little page that will have contact info and also contact box
+
+         Languages used
+
+            html: will be implement for the webpages
+            javascript: will be implemented to give the webpages functiontionally(buttons,scroller, auto-sizing, etc...
+            php: will be implemented to in the contact page for routing messages to Alejandro
+
+
+         Team:
+            Jesse Reyes Cortes - Project Development Manager
+                    - oversee the development of the project
+                    - implement and developing code
+                    - assure due dates are met
+                    - customer delegations
+
+            Cindy Reyes Cortes - Project Design Manager
+                    - lead design of project
+                    - implements design in general areas of code and project
+                    - marketing and advertising
+                    - customer delegations
+
+         Timeline:
+
+            02/21/19 - Start, Structure of project created, roles assign, github repository created
+
+
+
+         Due Dates:
+
+
+            Project completion/Launch: April 29th 2019
+
+
+
+
+
+
+
+    Git hub Command
+
+        git add .
+        git commit -m "folder"
+        git push
