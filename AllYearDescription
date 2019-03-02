@@ -16,6 +16,10 @@
 
             contact - little page that will have contact info and also contact box
 
+         Design
+
+            Implement a huskers/nebraska look
+
          Languages used
 
             html: will be implement for the webpages
@@ -68,3 +72,5 @@
                                     /ONLY FOR EARLY STAGE)
 
         git pull -will undo all of the changes you made to your history, intentionally
+
+        git remote set-url origin url -change the remote of file
