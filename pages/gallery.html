@@ -1,118 +1,36 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
 
-        <!-- css -->
-        <style type = "text/css">
-            h1{ background-color: #e41c38;}
-            footer{
-                height: 300px;
-                width: 100%;
-                background-color: black;
-                color: white;
-            }
-            a:link {
-                text-decoration: none;
-            }
+    <!-- links src/style.css to use attributes-->
+    <link rel="stylesheet" href="../src/sytle.css">
 
-            a:visited {
-                text-decoration: none;
-            }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-            a:hover {
-                text-decoration: underline;
-            }
+    <script>
+        $(function(){
+            $("#header").load("../src/header.html");
+            $("#footer").load("../src/footer.html");
+        });
+    </script>
 
-            a:active {
-                text-decoration: underline;
-            }
-        </style>
+</head>
 
-    </head>
-
-    <h1>
-    TheLogoMustGoHere                           ALL YEAR PAINTING
-    <ul>
-        Gallery
-    </ul>
-
-    <!-- here will be the tab used for navigation -->
-    <ul>
-        <a href = "index.html">Home</a> <a href = "gallery.html">Gallery</a> <a href = "about.html" >About us</a> <a href= "contact.html">Contact</a>
-        <ul/>
-    </h1>
 <body>
+    <!-- create the header dynamically -->
+    <div id="header"></div>
+
+    <!--place holder-->
+    <br><br><h2> Comming soon!!!</h2><br><br>
 
 </body>
 
-    <!-- footer for the webpage --->
+    <!-- creates dynamic footer --->
     <footer>
-        <!--all tables have to be side by side -->
-        <!--table for Nav(on the right -->
-        <table width="33%" style="float:left;">
-            <tr>
-                <th><font size="5.5">Menu</font></th>
-            </tr>
-            <tr>
-                <th><a href="index.html" style="color:white"><small>Home</small></a></th>
-            </tr>
-            <tr>
-                <th><a href="gallery.html" style="color:white"><small>Gallery</small></a></th>
-            </tr>
-            <tr>
-                <th><a href="about.html" style ="color:white"><small>About Us</small></a></th>
-            </tr>
-            <tr>
-                <th><a href="contact.html" style="color:white"><small>Contact</small></a></th>
-            </tr>
-        </table>
-        <!-- table will hold links to several community helps, that we wish to pay respects to-->
-        <table width="33%" style="float:left;">
-            <tr>
-                <th><font size="5.5">Community</font></th>
-            </tr>
-            <tr>
-                <th><a href="https://pcmlincoln.org/"><img src="../frame_0_delay-s.jpg" style="width:75px;height:37.5px;"></a></th>
-            </tr>
-            <tr>
-                <th><a href="https://www.lincolnfoodbank.org/"><img src="../food-bank-of-lincoln-logo.png" style="width:75px;height:37.5px;"></a></th>
-            </tr>
-            <tr>
-                <th><a href="https://centralusa.salvationarmy.org/lincoln/"><img src="../1200px-The_Salvation_Army.svg.png" style="width:50px;height:50px;"></a></th>
-            </tr>
-            <tr>
-                <th><a href="https://www.sherwin-williams.com/sherwinwilliams"><img src="../free-vector-sherwin-williams-0_077686_sherwin-williams-0.png" style="width: 50px;height:50px;" ></a></th>
-            </tr>
-        </table>
-        <!-- table will hold some detail info for Alejandro-->
-        <table width="33%" style="float:left;">
-            <tr>
-                <th><font size="5.5">Contact Details</font></th>
-            </tr>
-            <tr>
-                <th>Alejandro Andrade</th>
-            </tr>
-            <tr>
-                <th><small>Professional Painter</small></th>
-            </tr>
-            <tr>
-                <th></th>
-            </tr>
-            <tr>
-                <th>Email</th>
-            </tr>
-            <tr>
-                <th>Phone</th>
-            </tr>
-            <tr>
-                <th><a href="https://www.facebook.com/Four-seasons-painting-213951849381036/"><img src="../Facebook_UI-03-512.png" style="width:20px;height:20px;"></a> </th>
-            </tr>
-
-        </table>
-
-
+        <div id="footer"></div>
     </footer>
+
 </html>
 
