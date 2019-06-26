@@ -22,7 +22,7 @@
 
          Languages used
 
-            html: will be implement for the webpages
+            html: will be implemented for the webpages
             javascript: will be implemented to give the webpages functiontionally(buttons,scroller, auto-sizing, etc...)
             php: will be implemented in the contact page for routing messages to Alejandro
 
@@ -44,12 +44,30 @@
 
             02/21/19 - Start, Structure of project created, roles assign, github repository created
 
+            03/20/19 - have implemented a header and footer (prototype)
 
+            05/16/19 - finally back to working in the project, will be working on contact page
+
+            05/24/19 - make title flatter, & change fonts to make look better
+
+            05/29/19 - working on the contact php page, created new directory to hold the functions
+
+            06/09/19 - still trying working on figure out how to do the send emails in contact page, almost done with the logo!!!
+
+            06/11/19 - working on contact page under to make side by side header for 50% width on each
+
+            06/12/19 - finally got the the headers in contact page figured out, working on setting a single css file to pull from, still a long ways to go & also the header and foot on one page
+
+            06/25/19 - finally managed to create "header" & "footer" to be dynamic
+
+            06/26/19 - basic structure of "header" & "footer" is complete, still not fully complete
 
          Due Dates:
 
 
             Project completion/Launch: April 29th 2019
+
+            New lauch: date July 4th(most likely won't be the case :) )
 
 
 
