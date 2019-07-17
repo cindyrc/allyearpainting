@@ -1,9 +1,16 @@
 /* page contains all css styles used through out the entire website */
 
+
+/* Body */
+body{
+  margin: 0 auto;
+}
+
 /*main color of top header*/
 h1{
     background-color: #e41c38;
 }
+
 
 /*attributes of footer*/
 footer{
@@ -37,7 +44,7 @@ a:active {
 
 .option1 {
         display: inline-block;
-        width:50vh; 
+        width:50vh;
 }
 
 .left{
